@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Basics</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <h1>Mini Social Media App</h1>
+    <div class="container">
+        <div class="left">
+            <form class="form" id="form">
+                <label for="msg">Escribe un nuevo post</label>
+                <textarea class="msg" name="msg" id="input" cols="30" rows="5" autofocus></textarea>
+                <div id="msg">
+                    
+                </div>
+                <button class="button" type="submit">Crear Post</button>
+            </form>
+        </div>
+        <div class="right">
+            <h3>Tus posts</h3>
+            <div class="posts" id="posts">
+                <!-- <div>
+                    <p>Post 1</p>
+                    <span class="options">
+                        <i onClick="editPost(this)" class="fas fa-edit"></i>
+                        <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+                    </span>
+                </div> 
+                <div>
+                    <p>Post 2</p>
+                    <span class="options">
+                        <i onClick="editPost(this)" class="fas fa-edit"></i>
+                        <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+                    </span>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
